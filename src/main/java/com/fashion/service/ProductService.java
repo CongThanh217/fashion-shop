@@ -130,7 +130,7 @@ public class ProductService extends BaseService {
             product.setName(request.getName());
             product.setCategoryId(request.getCategoryId());
             product.setDescription(request.getDescription());
-            product.setCreatedBy("suong.nv");
+            product.setCreatedBy("Võ Phương Nam");
             product.setActive(true);
             product.setIsShowHome(request.getIsShowHome());
             product.setShortDescription(request.getShortDescription());

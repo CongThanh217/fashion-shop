@@ -50,10 +50,10 @@
 </style>
 <body>
 <jsp:include page="./common/notifier.jsp" />
-<div class="container">
+<div style="margin-top: 80px" class="container">
 
     <!-- Outer Row -->
-    <div class="row justify-content-center">
+    <div  class="row justify-content-center">
 
             <div class="col-xl-10 col-lg-12 col-md-9">
 

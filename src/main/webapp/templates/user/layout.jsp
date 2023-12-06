@@ -9,7 +9,7 @@
     <c:set scope="application" var="logoutId" value="logout-user" />
     <c:set scope="application" var="updateUserId" value="update-user" />
     <c:set scope="application" var="changePasswordId" value="change-password-user" />
-
+    <link rel="shortcut icon" href="https://yt3.googleusercontent.com/Cyaj-7iaqdMu6CUmI86rRHt3laPTDL9uK99Cxac-XVq3vOHoM1xTQ0-7kZhSrVz06qxAEz4y=s900-c-k-c0x00ffffff-no-rj">
     <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion Template">
     <meta name="keywords" content="Male_Fashion, unica, creative, html">

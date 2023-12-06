@@ -12,7 +12,9 @@
                         <thead>
                             <tr>
                                 <th>
-                                    <input id="cart-selector" type="checkbox" style="width: 50px" />
+                                    <c:if test="${ not empty myCart }">
+                                        <input id="cart-selector" type="checkbox" style="width: 50px" />
+                                    </c:if>
                                 </th>
                                 <th>Product</th>
                                 <th>Quantity</th>
@@ -23,11 +25,7 @@
                                             <i class="fa fa-close"></i>
                                         </a>
                                     </c:if>
-                                    <c:if test="${ empty myCart }">
-                                        <a href="javascript:void(0)">
-                                            <i class="fa fa-close"></i>
-                                        </a>
-                                    </c:if>
+
                                 </th>
                             </tr>
                         </thead>
@@ -104,7 +102,15 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="continue__btn update__btn">
-                            <button formaction="${ contextPath }/cart/update" ><i class="fa fa-spinner"></i> Cập nhật</button>
+                            <c:choose>
+                                <c:when test="${not empty myCart}">
+                                    <button formaction="${contextPath}/cart/update"><i class="fa fa-spinner"></i> Cập nhật</button>
+                                </c:when>
+                                <c:otherwise>
+                                    <button disabled><i class="fa fa-spinner"></i> Cập nhật</button>
+                                </c:otherwise>
+                            </c:choose>
+
                         </div>
                     </div>
                 </div>
@@ -117,7 +123,14 @@
                         <li>Giảm giá <span id="discount-price">0</span></li>
                         <li>Tổng <span id="total-price">0</span></li>
                     </ul>
-                    <button id="btn-checkout" data-href="${ contextPath }/order/checkout" class="primary-btn disabled text-white w-100" formmethod="GET">Đặt hàng</button>
+                    <c:choose>
+                        <c:when test="${not empty myCart}">
+                            <button id="btn-checkout" data-href="${ contextPath }/order/checkout" class="primary-btn disabled text-white w-100" formmethod="GET">Đặt hàng</button>
+                        </c:when>
+                        <c:otherwise>
+                            <button disabled id="btn-checkout" class="primary-btn disabled text-white w-100" >Đặt hàng</button>
+                        </c:otherwise>
+                    </c:choose>
                 </div>
             </div>
         </form>

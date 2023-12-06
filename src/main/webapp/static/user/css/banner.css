@@ -26,8 +26,8 @@
 
 .banner__item.banner__item--middle .banner__item__text {
     position: relative;
-    top: 0;
-    left: 0;
+    top: -446px;
+    left: 8px;
     max-width: 100%;
     padding-top: 22px;
 }

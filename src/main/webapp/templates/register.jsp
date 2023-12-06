@@ -21,7 +21,7 @@
 
 <body>
     <jsp:include page="./common/notifier.jsp" />
-    <div class="container">
+    <div style="margin-top: 80px;" class="container">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">

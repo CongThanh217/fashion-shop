@@ -14,23 +14,20 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="about__item">
-                    <h4>Who We Are ?</h4>
-                    <p>Contextual advertising programs sometimes have strict policies that need to be adhered too.
-                    Let’s take Google as an example.</p>
+                    <h4 style="color: red">Who We Are ?</h4>
+                    <p>Male Fashion - điểm đến của thời trang nam cao cấp, nơi phong cách và chất lượng hội tụ. Chúng tôi tự hào cung cấp những bộ trang phục độc đáo, chất liệu cao cấp, phù hợp với mọi phong cách từ lịch lãm đến hiện đại. Cam kết tạo nên diện mạo ấn tượng và đẳng cấp cho quý ông</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="about__item">
-                    <h4>Who We Do ?</h4>
-                    <p>In this digital generation where information can be easily obtained within seconds, business
-                    cards still have retained their importance.</p>
+                    <h4 style="color: red">What We Do ?</h4>
+                    <p>Tại Male Fashion, chúng tôi chuyên cung cấp những bộ trang phục thời trang nam cao cấp. Từ việc tuyển chọn những mẫu thiết kế độc đáo, chất liệu tốt nhất đến việc tư vấn phong cách cá nhân, mục tiêu của chúng tôi là giúp quý ông thể hiện phong cách riêng biệt và tự tin.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="about__item">
-                    <h4>Why Choose Us</h4>
-                    <p>A two or three storey house is the ideal way to maximise the piece of earth on which our home
-                    sits, but for older or infirm people.</p>
+                    <h4 style="color: red">Why Choose Us?</h4>
+                    <p>Lựa chọn Male Fashion không chỉ là chọn lựa một thương hiệu thời trang, mà còn là chọn lựa một trải nghiệm đẳng cấp. Chúng tôi nổi bật với cam kết về chất lượng, sự độc đáo trong từng thiết kế, và dịch vụ khách hàng xuất sắc. </p>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="counter__item">
                     <div class="counter__item__number">
-                        <h2 class="cn_num">102</h2>
+                        <h2 style="color: red" class="cn_num">102</h2>
                     </div>
                     <span>Our <br />Clients</span>
                 </div>
@@ -14,7 +14,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="counter__item">
                     <div class="counter__item__number">
-                        <h2 class="cn_num">30</h2>
+                        <h2 style="color: red" class="cn_num">30</h2>
                     </div>
                     <span>Total <br />Categories</span>
                 </div>
@@ -22,7 +22,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="counter__item">
                     <div class="counter__item__number">
-                        <h2 class="cn_num">102</h2>
+                        <h2 style="color: red" class="cn_num">102</h2>
                     </div>
                     <span>In <br />Country</span>
                 </div>
@@ -30,8 +30,8 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="counter__item">
                     <div class="counter__item__number">
-                        <h2 class="cn_num">98</h2>
-                        <strong>%</strong>
+                        <h2 style="color: red" class="cn_num">98</h2>
+                        <strong style="color: red">%</strong>
                     </div>
                     <span>Happy <br />Customer</span>
                 </div>
