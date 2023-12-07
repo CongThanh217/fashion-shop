@@ -22,7 +22,7 @@ import java.util.Objects;
 @EqualsAndHashCode(callSuper = true)
 @WebServlet(name = "adminCategoryServlet", urlPatterns = "/admin/category/*")
 @Data
-public class CategoryServlet extends AdminLayoutServlet {
+public class  CategoryServlet extends AdminLayoutServlet {
 
     private static final String REDIRECT_CATEGORY_HOME = "redirect:/admin/category";
 
